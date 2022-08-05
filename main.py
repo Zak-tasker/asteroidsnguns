@@ -108,7 +108,7 @@ class Ship:
         screen.blit(rotated_surface, blit_position)
 
         # debug hitbox draw
-        pygame.draw.rect(screen, (0, 0, 255), self.hitbox, 2)
+        #pygame.draw.rect(screen, (0, 0, 255), self.hitbox, 2)
 
         # render tutorial for each player
         tutorial = pygame.transform.scale2x(pygame.image.load("controls" + str(self.player) + ".png"))
